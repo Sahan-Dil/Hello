@@ -1,3 +1,5 @@
+Complete social media web application powered by react with chat, voice over search, gaming and like-comment and posting.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
