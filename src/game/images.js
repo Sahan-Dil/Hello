@@ -1,0 +1,21 @@
+import Image01 from './01.jpg';
+import Image02 from './02.jpg';
+import Image03 from './03.jpg';
+import Image04 from './04.jpg';
+import Image05 from './05.jpg';
+import Image06 from './06.jpg';
+import Image07 from './07.jpg';
+import Image08 from './08.jpg';
+import Image09 from './09.jpg';
+import Image10 from './10.jpg';
+import Image11 from './11.jpg';
+import Image12 from './12.jpg';
+import Image13 from './13.jpg';
+import Image14 from './14.jpg';
+import Image15 from './15.jpg';
+import Image16 from './16.jpg';
+import Image17 from './17.jpg';
+import Image18 from './18.jpg';
+
+const Images = [Image01, Image02, Image03, Image04, Image05, Image06, Image07, Image08, Image09, Image10, Image11, Image12, Image13, Image14, Image15, Image16, Image17, Image18];
+export default Images;

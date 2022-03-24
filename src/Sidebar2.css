@@ -1,0 +1,113 @@
+
+.sidebar3__languages {
+    background-color: white;
+    border: 1px solif rgba(199, 199, 199, 0.63);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 80px;
+    margin-top: 50px;
+}
+
+.sidebar3__languages p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #4765a0;
+}
+
+.sidebar3__languages p:hover {
+    cursor: pointer;
+}
+
+.sidebar3__selected {
+    color: gray !important;
+}
+
+.sidebar3__policies {
+    color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.copyright {
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+.sidebar2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 10%;
+}
+
+@media screen and (max-width: 1280px) {
+    .sidebar2 {
+      margin-left: 0;
+    }
+  }
+
+.contacts {
+    margin-top: 10px;
+}
+.hr {
+    margin-left: 16px;
+    margin-bottom: 10px;
+    margin-right: 16px;
+    margin-top: 8px;
+    border-bottom: 2px solid #3E4042;
+}
+
+h1 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #b0b3b8;
+    cursor: context-menu;
+    margin-left: 16px;
+}
+
+.searchIcon2 {
+    background-size: 33px 1483px;
+    background-repeat: no-repeat;
+    width: 16px;
+    cursor: pointer;
+    margin-left: 190px;
+    height: 16px;
+    background-position: 0 -1398px;
+    vertical-align: -0.25em;
+}
+
+.more {
+    background-size: 33px 1483px;
+    background-repeat: no-repeat;
+    width: 16px;
+    float: right;
+    height: 16px;
+    cursor: pointer;
+    margin-left: 30px;
+    background-position: 0 -1364px;
+    vertical-align: -0.25em;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media screen and (max-width: 600px) {
+    .sidebar2 {
+        display: none;
+    }
+}

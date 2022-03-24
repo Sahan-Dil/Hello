@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 83px;
+    justify-content: space-between;
+}
+
+.header__logo {
+    height: 20px;
+    object-fit: contain;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+
+
+
+.header__submit {
+    width: 60px;
+    height: 25px;
+    background-color: white;
+    border: none;
+    color : black;
+    display: inline;
+    font-weight: 600;
+    margin-right: 350px;
+}
+.header__submit:hover {
+    background-color: darkgrey;
+    transition: 0.2s;
+}

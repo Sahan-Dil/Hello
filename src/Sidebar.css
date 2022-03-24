@@ -1,0 +1,62 @@
+.sidebar {
+    flex: 0.2;
+    
+}
+
+.sidebar > h3 {
+    color: #e4e6eb;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar {
+    flex: 0.2;
+    margin-top: 20px;
+}
+
+.sidebar .hr { 
+    margin-left: 16px;
+    margin-bottom: 10px;
+    margin-right: 16px;
+    margin-top: 8px;
+    border-bottom: 2px solid #3E4042;
+}
+
+.policies {
+    display: flex;
+    flex-direction: row;
+    color: #A3A6AC;
+    width: 260px;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    margin-right: 16px;
+}
+
+.policies p {
+    font-weight: 400;
+    font-size: 13px;
+    color: #b0b3b8;
+}
+
+.ads {
+    background-size: 33px 1483px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left:3px;
+    margin-top:2px;
+    width: 12px;
+    height: 12px;
+    background-position: -17px -1203px;
+    vertical-align: -0.25em;
+}
+
+@media screen and (max-width: 600px) {
+    .sidebar {
+        display: none;
+    }
+}

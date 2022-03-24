@@ -1,0 +1,107 @@
+.msg_container{
+    max-width: 80%;
+    margin-left: 10%;
+    background-color:rgb(61, 59, 59);
+   
+}
+
+
+.msg_container img{
+    border-radius: 50%;
+    height: 45px;
+    margin-top: -20px;
+    border: 2px solid black;
+}
+
+.msg_container p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    overflow-wrap: break-word;
+}
+  
+
+  
+.msg_container .msg {
+    display: flex;
+    padding: 20px 10px 0 20px;
+    margin: 20px;
+    border-radius: 3000px;
+    box-shadow: 0 0 10px rgb(2, 2, 2);
+    align-items: center;
+  }
+  
+  .msg_container .sent {
+    background-color: #395dff;
+    color: white;
+    border-top-right-radius: 1000px;
+    flex-direction: row-reverse;
+    padding: 20px 20px 0 10px;
+    text-align: end;
+    float: right;
+  }
+  
+  .msg_container .received {
+    border: 1px solid lightgray;
+    background-color: #FAFAFA;
+    border-top-left-radius: 1000px;
+    float: left;
+  }
+  
+  .msg_container .sendMsg {
+    position: fixed;
+    display: flex;
+    width: 78.5%;
+    bottom: 0;
+    z-index: 1;
+    border-top: 1px solid lightgray;
+    margin-left: -8%;
+    padding: 10px;
+    padding-bottom: 30px;
+    background-color: #fafafa;
+  }
+  
+  .msg_container .msgs {
+    margin: 110px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  @media (max-width: 775px) {
+    .msg_container p {
+      font-size: 20px;
+    }
+    .msg_container .sent {
+      padding: 10px 10px 0 10px;
+    }
+    .msg_container .received {
+      padding: 10px 10px 0 10px;
+    }
+    .msg_container img {
+      height: 35px;
+      margin-top: -10px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .msg_container p {
+      font-size: 15px;
+    }
+    .msg_container .sent {
+      padding: 7px 7px 0 7px;
+    }
+    .msg_container .received {
+      padding: 7px 7px 0 7px;
+    }
+    .msg_container img {
+      height: 30px;
+      margin-top: -7px;
+    }
+  }
+  
+  
+  
